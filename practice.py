@@ -23,3 +23,10 @@ print(type(num1))
 print(type(num2))
 print(type(num3))
 
+# conditions
+print(2 < 5)
+print(2 > 5)
+print(2 == 5)
+print(2 != 5)
+print('Hello' == 'hello')
+print('hi' == '5')
