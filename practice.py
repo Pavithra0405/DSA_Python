@@ -60,3 +60,15 @@ if not(x == y): # !false => true
     print("true")
 else:
     print('false')
+    
+    
+# Nested statements
+a = 2
+b = 3
+if a == 2:
+    if b == 3:
+        print("a=2,b=3")
+    else:
+        print("a=2,b!=3")
+else:
+    print("a!=2")
