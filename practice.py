@@ -1,9 +1,9 @@
 print('Hi this is my first python program')
 
 # input and output
-# print('Hello,What is ur name?')
-# name = input()
-# print('Hi,',name)
+print('Hello,What is ur name?')
+name = input()
+print('Hi,',name)
 
 # operators
 print('Enter num1')
@@ -30,3 +30,13 @@ print(2 == 5)
 print(2 != 5)
 print('Hello' == 'hello')
 print('hi' == '5')
+
+# IF/ELIF/ELSE
+height = int(input('enter your height:'))
+if height <= 1:
+    print('You are 1m!!!')
+elif height > 5:
+    print('you are tall')
+else:
+    print('Invalid input')
+
