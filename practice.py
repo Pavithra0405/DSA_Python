@@ -40,3 +40,23 @@ elif height > 5:
 else:
     print('Invalid input')
 
+# chained conditionals and nested statements
+x = 2
+y = 3
+# and
+print("AND")
+if x == y and x + y == 5: #false /true
+    print("true")
+else:
+    print('false')
+# or
+print("OR")
+if x == y or x + y == 5: # false / True
+    print("true")
+else:
+    print('false')
+print("NOT")
+if not(x == y): # !false => true
+    print("true")
+else:
+    print('false')
